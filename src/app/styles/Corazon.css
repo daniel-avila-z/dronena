@@ -1,0 +1,46 @@
+/* Estilos para el corazón */
+.heart {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: red;
+    transform: rotate(45deg);
+  }
+  
+  /* Estilos para los círculos del corazón */
+  .heart::before,
+  .heart::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+  }
+  
+  /* Posición de los círculos del corazón */
+  .heart::before {
+    top: -20px;
+    right: 0px; /* Cambio aquí */
+  }
+  
+  .heart::after {
+    left: -20px;
+    bottom: 0px;/* Cambio aquí */
+  }
+  
+  /* Animación para el latido del corazón */
+  @keyframes beat {
+    from {
+      transform: scale(1) rotate(45deg);
+    }
+    to {
+      transform: scale(1.2) rotate(45deg);
+    }
+  }
+  
+  /* Aplicación de la animación al corazón */
+  .heart {
+    animation: beat 0.5s infinite alternate;
+  }
+  

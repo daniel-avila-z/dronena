@@ -1,0 +1,18 @@
+
+
+body{
+    font-family: 'Roboto', monospace;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+    
+}
+main{
+    padding: 50px 0px 0px 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: rgb(0, 0, 0);
+}

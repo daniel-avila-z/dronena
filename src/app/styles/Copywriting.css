@@ -1,0 +1,55 @@
+header{
+    /* background-color: rgb(206 253 255); */
+
+    background-image: url('../../../public/assets/mockups/sede3.jpg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+}
+.copy-main-container{
+    /* background-color: rgb(117 197 241); */
+    /* background-image: url('../../../public/assets/mockups/sede3.jpg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center; */
+    margin: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: row; */
+    align-items: center;
+    width: auto;
+    height: 100vh;
+}
+.copy-container{
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.copywriting{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;;
+    /* font-weight: bold; */
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 50px 0px 50px 0px;
+    line-height: 2;
+    backdrop-filter: blur(1px);
+}
+.copyspan{
+    text-shadow: 3px 3px 1px #00d1ff;
+    color: rgb(255 255 255);
+}
+.image-copy{
+    width: auto;
+    object-fit: contain;
+    object-position: top;
+    height: fit-content;
+    place-self: center;
+}
