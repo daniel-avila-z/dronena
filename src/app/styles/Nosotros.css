@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(0 245 255 / 29%);
+    background-color: rgb(204, 252, 255);
     padding-bottom: 50px;
 }
 .us-titulo-container{
@@ -16,6 +16,7 @@
     color: rgb(41 41 41);
     padding: 0;
     margin: 50px 0px 50px 0px;
+    text-shadow: 2px 2px 0px rgb(0, 221, 255);
 }
 .us-mv-container{
     width: 100%;
@@ -35,7 +36,7 @@
     flex-direction: row;
     align-items: flex-start;
     margin: 0px 25px 0px 25px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .us-icono-container {
@@ -92,6 +93,7 @@
 .us{
     font-size: 2.5rem;
     margin: 20px 0px 20px 0px;
+    text-shadow: 1px 1px 0px rgb(0, 221, 255);
 }
 .us-p{
     text-wrap: wrap;
@@ -108,17 +110,16 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #ffffff;
 }
 .usfund-container {
-    background-color: rgba(0, 183, 255, 0.278);
-    color: rgb(0 0 0);
+    background-color: rgb(33 81 159);
+    color: rgb(255 255 255);
     width: auto;
     height: 50vh;
     display: flex;
     flex-direction: row;
-    margin: 1px 100px 50px 100px;
-    border-radius: 20px;
+    margin: 0px 50px 50px 50px;
+    border-radius: 10px;
     align-items: center;
 }
 .usfund-icono {
@@ -130,13 +131,13 @@
     justify-content: space-between;
     padding: 0px 20px 0px 0px;
     flex-wrap: nowrap;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .usfund-p{
     text-wrap: balance;
     /* text-align: center; */
     font-size: 1.5rem;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 40px 0px 50px;
     margin: 0;
     line-height: 1.7;
 }

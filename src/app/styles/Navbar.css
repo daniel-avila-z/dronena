@@ -3,13 +3,16 @@
     height: auto;
     display: flex;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: rgb(197 250 251);
     /* padding: 15px 0px 15px 0px; */
     margin: 0px 0px 0px 0px;
     flex-direction: row;
     justify-content: space-around;
     position: fixed;
     z-index: 100;
+    font-size: 1rem;
+    font-weight: bold;
+
 }
 .marca-container{
     /* padding: 0px 0px 0px 15px; */
