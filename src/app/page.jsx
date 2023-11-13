@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import CopyWriting from './components/Copywriting'
 import Nosotros from './components/Nosotros'
 import Beneficios from './components/Beneficios'
-import Contacto from './components/Contacto'
+import Cliente from './components/Cliente'
 import Footer from './components/Footer'
 
 export default function Home ({ children }) {
@@ -15,7 +15,7 @@ export default function Home ({ children }) {
         <CopyWriting />
         <Nosotros />
         <Beneficios />
-        <Contacto />
+        <Cliente />
         <Footer />
         {/* <PhotoSlider /> */}
         {children}

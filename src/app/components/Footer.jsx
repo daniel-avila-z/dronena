@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Logo from '../../../public/assets/mockups/Logo.png'
 import '../styles/Footer.css'
+import Link from 'next/link'
 
 export default function Footer () {
   return (
@@ -33,29 +34,90 @@ export default function Footer () {
               Zona Ind. del Este, Av. 2, Edif. Drogueria Nena. Guarenas, Estado Miranda, Venezuela.
             </p>
           </div>
+          <div className='footer-container'>
+            <Image alt='logo' src={Logo} />
+          </div>
 
         </div>
-        <div>
-          <Image alt='logo' src={Logo} />
+        <div className='footer-container'>
+          <h3 className='footer-subtitulo'>Ministerio e Instituciones</h3>
+          <div className='footer-contacto-container'>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Ministerio del Poder Popular para la Salud.</Link>
+            </div>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Ministerio del Poder Popular para el Trabajo y Seguridad Social.</Link>
+            </div>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Instituto Nacional de Prevención, Salud y Seguridad Laboral.</Link>
+            </div>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Ministerio del Poder Popular para el Comercio.</Link>
+            </div>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Ministerio del Poder Popular para Ciencia, Tecnología e Industrias Intermedias.</Link>
+            </div>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Instituto Venezolano de los Seguros Sociales.</Link>
+            </div>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Servicio Nacional Integrado de Administración Aduanera y Tributaria.</Link>
+            </div>
+          </div>
+        </div>
+        <div className='footer-container'>
+          <h3 className='footer-subtitulo'>Cámaras y Asociaciones:</h3>
+          <div className='footer-contacto-container'>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Cámara de la Industria Farmacéutica.</Link>
+            </div>
+          </div>
+          <div className='footer-contacto-container'>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Cámara Venezolana de Droguerías.</Link>
+            </div>
+          </div>
+          <div className='footer-contacto-container'>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Cámara Venezolana de Farmacia.</Link>
+            </div>
+          </div>
+          <h3 className='footer-subtitulo'>Informativos:</h3>
+          <div className='footer-contacto-container'>
+            <div className='footer-texto-container'>
+              {/* <p className='footer-texto'>Ateción al cliente</p> */}
+              <Link className='footer-link' href=''>Gaceta Oficial de Venezuela.</Link>
+            </div>
+          </div>
         </div>
       </div>
       <div className='footer-dere-container'>
-        <div class='footer-contactanos-container'>
-          <h2 class='footer-titulo'>Contactanos</h2>
+        <div className='footer-contactanos-container'>
+          <h2 className='footer-titulo'>Contactanos</h2>
           <form className='footer-form' action='#'>
-            <div class='form-group'>
+            <div className='form-group'>
               <label className='input-titulo'>
                 <span>Nombre y Apellido</span>
               </label>
               <input type='text' className='footer-form-input' placeholder='' />
             </div>
-            <div class='form-group'>
+            <div className='form-group'>
               <label className='input-titulo'>
                 <span>Email</span>
               </label>
               <input type='text' className='footer-form-input' placeholder='' />
             </div>
-            <div class='form-group'>
+            <div className='form-group'>
               <label className='input-titulo'>
                 <span>Departamento</span>
               </label>
@@ -72,7 +134,7 @@ export default function Footer () {
               <textarea className='footer-form-textarea' name='' id='' cols='30' rows='3' placeholder='Escribe aquí tu mensaje' />
             </div>
             <div className=''>
-              <button type='enviar' class='footer-boton'>Enviar</button>
+              <button type='enviar' className='footer-boton'>Enviar</button>
             </div>
           </form>
         </div>

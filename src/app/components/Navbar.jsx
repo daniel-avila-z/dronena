@@ -1,12 +1,14 @@
 import Link from 'next/link'
-// import Image from 'next/image'
+import Image from 'next/image'
+import Logo from '../../../public/assets/mockups/logo-dronena.png'
 import '../styles/Navbar.css'
 
 export default function Navbar () {
   return (
     <nav className='navbar-main-container'>
       <div className='marca-container'>
-        <h2 className='titulo'>Dronena</h2>
+        <h2 className='navbar-titulo'>Dronena</h2>
+        <span className='navbar-logo-container'><Image className='navbar-logo' alt='logo' src={Logo} /></span>
       </div>
       <div className='links-container'>
         <ul className='menu'>
@@ -17,13 +19,13 @@ export default function Navbar () {
           </li>
           <span>|</span>
           <li>
-            <Link href='/nosotros'>
+            <Link href='#us'>
               Nosotros
             </Link>
           </li>
           <span>|</span>
           <li>
-            <Link href='/cliente'>
+            <Link href='#cliente'>
               Ser Cliente Nena
             </Link>
           </li>
@@ -35,7 +37,7 @@ export default function Navbar () {
           </li>
           <span>|</span>
           <li>
-            <Link href='/suscribirme'>
+            <Link href='#suscribirme'>
               Suscribirme
             </Link>
           </li>

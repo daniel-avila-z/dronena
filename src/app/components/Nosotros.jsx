@@ -7,7 +7,7 @@ import Fundacion from '../../../public/assets/mockups/fundacion.jpg'
 export default function Nosotros () {
   return (
     <article>
-      <section className='us-main-container'>
+      <section id='us' className='us-main-container'>
         <div className='us-titulo-container'>
           <h2 className='us-titulo'>Nosotros</h2>
         </div>

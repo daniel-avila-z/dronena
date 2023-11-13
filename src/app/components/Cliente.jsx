@@ -1,11 +1,11 @@
-import '../styles/Contacto.css'
+import '../styles/Cliente.css'
 import ValidarTelefono from './ValidarTelefono'
 
-export default function Contacto () {
+export default function Cliente () {
   return (
-    <section className='cont-main-container'>
+    <section id='cliente' className='cont-main-container'>
       <div className='cont-titulo-container'>
-        <h2 className='cont-titulo'>QUEREMOS CONOCERTE</h2>
+        <h2 className='cont-titulo'>Queremos Conocerte</h2>
       </div>
       <div className='cont-texto-form'>
         <div className='cont-texto-container'>
@@ -82,7 +82,7 @@ export default function Contacto () {
             </div>
           </form>
           <div className=''>
-            <button type='enviar' class='registro-boton'>Enviar</button>
+            <button type='enviar' className='registro-boton'>Registrarme</button>
           </div>
         </div>
       </div>

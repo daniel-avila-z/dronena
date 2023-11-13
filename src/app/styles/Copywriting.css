@@ -32,7 +32,7 @@ header{
 }
 .copywriting{
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     /* font-weight: bold; */
     font-weight: 600;
     font-size: 3rem;
@@ -43,7 +43,7 @@ header{
     backdrop-filter: blur(1px);
 }
 .copyspan{
-    text-shadow: 3px 3px 1px #00d1ff;
+    text-shadow: 2px 2px 1px #00d1ff;
     color: rgb(255 255 255);
 }
 .image-copy{
