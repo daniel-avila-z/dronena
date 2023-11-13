@@ -43,7 +43,7 @@ export default function Navbar () {
           </li>
           <span>|</span>
           <li>
-            <Link href='/contacto'>
+            <Link href='#contacto'>
               Contáctanos
             </Link>
           </li>

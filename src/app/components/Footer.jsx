@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Footer () {
   return (
-    <section className='footer-main-container'>
+    <section id='contacto' className='footer-main-container'>
       <div className='footer-izq-container'>
         <div className='footer-container'>
           <h3 className='footer-subtitulo'>¿Tienes una pregunta?</h3>
@@ -73,7 +73,7 @@ export default function Footer () {
           </div>
         </div>
         <div className='footer-container'>
-          <h3 className='footer-subtitulo'>Cámaras y Asociaciones:</h3>
+          <h3 className='footer-subtitulo'>Cámaras y Asociaciones</h3>
           <div className='footer-contacto-container'>
             <div className='footer-texto-container'>
               {/* <p className='footer-texto'>Ateción al cliente</p> */}
@@ -92,7 +92,7 @@ export default function Footer () {
               <Link className='footer-link' href=''>Cámara Venezolana de Farmacia.</Link>
             </div>
           </div>
-          <h3 className='footer-subtitulo'>Informativos:</h3>
+          <h3 className='footer-subtitulo'>Informativos</h3>
           <div className='footer-contacto-container'>
             <div className='footer-texto-container'>
               {/* <p className='footer-texto'>Ateción al cliente</p> */}

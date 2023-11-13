@@ -42,8 +42,13 @@ export default function Nosotros () {
           <h2 className='us-titulo'>Nuestra Responsabilidad Social</h2>
         </div>
         <div className='usfund-container'>
-          <Image className='usfund-icono' alt='Fundacion nena' src={Fundacion} />
-          <p className='usfund-p'>Desde nuestros inicios, Droguería Nena lleva a cabo un proceso de ayudas a través de donaciones en medicamentos y efectivo destinadas a la atención de personas e instituciones benéficas, entre otros. Producto de un mayor interés por consolidar su compromiso en el largo plazo, ha decidido impulsar a Fundación Nena, como brazo ejecutor de su acción socialmente responsable, enfocada en el mejor esfuerzo para contribuir al desarrollo humano, mediante acciones que promuevan y apoyen el mejoramiento sostenido de la salud y calidad de vida de individuos, familias y comunidades más vulnerables.</p>
+          <div className='usfund-foto-container'>
+            <Image className='usfund-foto' alt='Fundacion nena' src={Fundacion} />
+          </div>
+          <div className='usfund-p-container'>
+            <p className='usfund-p'>Desde nuestros inicios, Droguería Nena lleva a cabo un proceso de ayudas a través de donaciones en medicamentos y efectivo destinadas a la atención de personas e instituciones benéficas, entre otros. Producto de un mayor interés por consolidar su compromiso en el largo plazo, ha decidido impulsar a Fundación Nena, como brazo ejecutor de su acción socialmente responsable, enfocada en el mejor esfuerzo para contribuir al desarrollo humano, mediante acciones que promuevan y apoyen el mejoramiento sostenido de la salud y calidad de vida de individuos, familias y comunidades más vulnerables.</p>
+          </div>
+
         </div>
       </section>
     </article>
